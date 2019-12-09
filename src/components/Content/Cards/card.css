@@ -1,28 +1,27 @@
 .card-container {
   display: flex;
   flex-wrap: wrap;
-  margin: 10px;
+  margin-top: 2rem;
   width: 100%;
+  justify-content: center;
 }
 .card {
-  display: flex;
-  width: 15rem;
-  flex-direction: column;
-  margin: 10px;
+  width: 100%;
   box-sizing: border-box;
+  margin-bottom: 1.2rem;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.1);
-  padding: 15px;
-  border-radius: 10px;
+  padding: 0.938rem;
+  border-radius: 0.625rem;
   font-family: 'Open Sans', sans-serif;
 }
 .card p {
   font-family: Rubik, sans-serif;
   color: rgb(122, 122, 122);
   line-height: 1.5em;
-  font-size: 15px;
+  font-size: 0.938rem;
 }
 .card h4 {
-  margin-top: 5px;
+  margin-top: 0.313rem;
   margin-bottom: 0;
 }
 .tech {
@@ -38,14 +37,12 @@
   justify-content: flex-start;
 }
 .card-expertise {
-  display: flex;
-  flex-direction: column;
-  width: 9.375rem;
+  width: 7rem;
   box-sizing: border-box;
   border: 1px solid rgb(108, 187, 170);
   text-align: center;
-  padding: 10px;
-  margin: 30px;
+  padding: 0.625rem;
+  margin: 0.625rem 0.5rem;
 }
 .container {
   border-radius: 10px;
@@ -97,28 +94,10 @@
   position: relative;
   bottom: 25px;
 }
-@media (max-width: 770px) {
-  .card-expertise {
-    width: 6.25rem;
-    margin: 15px;
-  }
-  .children {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    box-sizing: border-box;
-  }
-  .tech {
-    height: 60px;
-  }
-  .container {
-    border-radius: 0;
-  }
-  .card-product {
-    display: flex;
-    width: 100px;
-  }
+
+@media (min-width: 500px) {
   .card {
     width: 15rem;
+    margin: 1.2rem;
   }
 }

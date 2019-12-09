@@ -31,12 +31,10 @@
   font-weight: 500;
   line-height: 1.75;
 }
-.banner-button {
-  color: #29ce2f;
-}
+
 @media (min-device-width: 500px) {
   .banner {
-    height: 700px;
+    height: 30rem;
   }
   .banner-writeup h1 {
     font-size: 3rem;

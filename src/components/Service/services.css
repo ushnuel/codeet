@@ -1,5 +1,5 @@
 .service-header {
-  margin-bottom: 40px;
+  margin-bottom: 2.5rem;
   text-align: center;
 }
 .service-header p {
@@ -7,17 +7,17 @@
 }
 .service-container {
   display: flex;
-  margin: 30px 15px;
+  margin: 1.875rem;
   flex-direction: column;
   font-size: 1.2rem;
 }
 .service-background-image {
   width: 100%;
-  height: 300px;
+  height: 18.75rem;
 }
 .service {
-  margin-top: 20px;
-  padding: 10px;
+  margin-top: 1.25rem;
+  padding: 0.625;
   box-sizing: border-box;
 }
 .service ul {
@@ -34,7 +34,7 @@
 }
 .service-background-image2 {
   width: 100%;
-  height: 400px;
+  height: 24rem;
   margin: 20px 0;
 }
 .service-match-container {
@@ -43,23 +43,20 @@
 .service-products {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  margin: 10px;
+  margin: 1.825rem;
+  box-sizing: border-box;
   flex-wrap: wrap;
   line-height: 1.5em;
 }
 .after-contact-container {
-  margin: 40px 20px;
-  font-family: Lato, sans-serif;
-  color: #172735;
-  font-weight: 400;
+  display: none;
 }
 .service-card {
-  width: 280px;
-  margin: 15px;
-  border-radius: 20px;
+  width: 100%;
+  margin-bottom: 1rem;
+  border-radius: 1.25rem;
   box-shadow: 0 12px 6px 0 rgba(0, 0, 0, 0.04);
-  padding: 20px;
+  padding: 1.25rem;
   font-family: Roboto, serif;
   box-sizing: border-box;
 }
@@ -90,15 +87,15 @@
 @media (min-device-width: 768px) {
   .service-container,
   .service-products {
-    margin: 50px;
+    margin: 2rem;
     flex-direction: row;
   }
   .service-card {
-    width: 25rem;
+    width: 20rem;
+    margin: 1rem;
   }
   .service-background-image {
-    width: 80%;
-    margin: 20px;
+    margin: 1.25rem;
     height: 400px;
   }
   .service-container h2 {
@@ -111,26 +108,19 @@
     display: block;
   }
   .service-match-container {
-    height: 300px;
+    height: 18.75rem;
   }
   .after-contact {
     display: flex;
   }
   .after-contact-container {
-    margin: 80px;
+    display: block;
+    margin: 3rem;
   }
   .after-contact-container h1 {
-    font-size: 35px;
+    font-size: 2.188rem;
   }
   .contact-step {
-    margin: 10px;
-  }
-}
-@media (min-device-width: 500px) and (max-device-width: 768px) {
-  .service-card {
-    width: 300px;
-  }
-  .service-products {
-    justify-content: flex-start;
+    margin: 0.625rem;
   }
 }
