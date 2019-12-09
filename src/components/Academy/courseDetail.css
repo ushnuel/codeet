@@ -1,0 +1,77 @@
+.sidebarCourse {
+  display: none;
+}
+.courseSection {
+  margin: 10%;
+  display: flex;
+  flex-direction: column;
+  color: rgb(122, 122, 122);
+  font-family: Rubik, sans-serif;
+  line-height: 1.5em;
+  font-weight: 300px;
+}
+.courseTitle,
+.courseDuration,
+.coursePrice {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  background-color: rgb(65, 66, 65);
+  color: white;
+  text-align: center;
+}
+.courseCost,
+.requirement,
+.package,
+.faqs {
+  margin-top: 10%;
+}
+.courseSection h1 {
+  font-size: 2rem;
+}
+.coursePrice {
+  margin-bottom: 5%;
+}
+.courseCapacity {
+  display: none;
+}
+.courseSpan {
+  color: green;
+  font-weight: bold;
+}
+@media (min-device-width: 770px) {
+  .courseSection {
+    margin: 3%;
+    width: 100%;
+    margin-left: 25%;
+  }
+  .sidebarCourse {
+    display: block;
+    position: fixed;
+    top: 10%;
+    width: 15%;
+    height: 100vh;
+    padding: 2%;
+  }
+  .sidebarCourse h4 {
+    margin: 15%;
+    font-size: 1.2rem;
+  }
+  .sidebarCourseContainer {
+    display: flex;
+  }
+  .courseCapacity {
+    display: inline;
+  }
+  .coursePrice {
+    display: flex;
+    justify-content: space-around;
+  }
+  .courseCost,
+  .requirement,
+  .package,
+  .faqs {
+    margin-top: 5%;
+  }
+}

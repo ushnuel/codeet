@@ -1,0 +1,47 @@
+.banner-container {
+  width: 100%;
+  height: auto;
+}
+.banner {
+  height: 500px;
+}
+.banner-writeup {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  top: 60px;
+  padding: 20px;
+  font-family: Lato, sans-serif;
+}
+.banner-writeup div {
+  position: relative;
+  top: 40px;
+}
+.banner-writeup h1 {
+  font-size: 2.2rem;
+  line-height: 1.4em;
+}
+.banner-writeup span {
+  color: #29ce2f;
+}
+.banner-writeup h2 {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.75;
+}
+.banner-button {
+  color: #29ce2f;
+}
+@media (min-device-width: 500px) {
+  .banner {
+    height: 700px;
+  }
+  .banner-writeup h1 {
+    font-size: 3rem;
+  }
+  .banner-writeup {
+    padding-left: 50px;
+  }
+}

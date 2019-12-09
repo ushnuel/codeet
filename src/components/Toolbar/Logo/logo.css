@@ -1,0 +1,14 @@
+.Logo {
+  height: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  color: blue;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 10px;
+}
+.logo {
+  height: 80%;
+  width: 100px;
+  margin-right: 10px;
+}

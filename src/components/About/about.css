@@ -1,0 +1,44 @@
+.hide-read {
+  display: none;
+}
+.about-us-container,
+.contact-us-container {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  font-family: Rubik, sans-serif;
+  line-height: 1.5em;
+}
+.about-us-container h1 {
+  padding: 10px;
+}
+.about-us,
+.contact-us {
+  display: flex;
+  flex-direction: column;
+}
+.card-about {
+  padding: 10px;
+}
+.card-about h2 {
+  margin: 0;
+}
+
+@media (min-device-width: 500px) {
+  .about-us,
+  .contact-us {
+    flex-direction: row;
+  }
+  .about-us-container,
+  .contact-us-container {
+    padding: 5px 50px;
+  }
+  .about-us-container h1 {
+    font-size: 40px;
+  }
+}
+@media (min-device-width: 500px) and (max-device-width: 768px) {
+  .contact-us-container {
+    padding: 10px;
+  }
+}

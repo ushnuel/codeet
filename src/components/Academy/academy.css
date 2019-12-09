@@ -1,0 +1,59 @@
+.bootcamp-section {
+  margin: 10%;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.bootcamp-section h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+.bootcamp-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.bootcamp-card {
+  width: 100%;
+  margin: 2rem 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+}
+.bootcamp-card-image {
+  height: 200px;
+}
+.bootcamp-card-image div {
+  background: rgb(65, 66, 65);
+  padding: 1rem;
+  width: 40px;
+  color: whitesmoke;
+  font-weight: bold;
+}
+.academy-lower-section {
+  margin: 5%;
+}
+.academy-lower-section h2 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+.level {
+  color: rgb(67, 153, 74);
+  font-weight: bold;
+}
+.academy-image-txt {
+  width: 100%;
+  line-height: 1.2;
+}
+@media (min-device-width: 480px) {
+  .bootcamp-section {
+    margin: 4% 10%;
+  }
+  .bootcamp-card {
+    width: 28%;
+    margin-right: 2rem;
+  }
+  .bootcamp-section h1 {
+    font-size: 3.5rem;
+  }
+  .academy-lower-section {
+    margin: 3%;
+  }
+}

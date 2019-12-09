@@ -1,0 +1,45 @@
+.Form small {
+  display: none;
+  color: red;
+}
+.Form span {
+  color: red;
+}
+.Form input:focus {
+  border: none;
+}
+.error,
+.success {
+  background-color: red;
+  padding: 10px;
+  margin: auto;
+  color: white;
+  box-sizing: border-box;
+  width: 80%;
+  text-align: center;
+  margin-top: 10px;
+}
+.success {
+  background-color: green;
+}
+.Form input,
+.Form select,
+.Form textarea,
+.Form select option {
+  padding: 10px 8px;
+  margin-top: 5px;
+  border: 1px solid rgb(122, 122, 122);
+}
+.Form {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.Form label {
+  margin-top: 20px;
+}
+@media (min-device-width: 768px) {
+  .Form {
+    padding: 20px;
+  }
+}

@@ -1,0 +1,33 @@
+.product-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  align-items: center;
+}
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+.image-card {
+  margin: 10px;
+  width: 500px;
+  height: 250px;
+  border-radius: 20px;
+}
+
+@media (max-device-width: 500px) {
+  .products {
+    flex-direction: column;
+  }
+  .image-card {
+    width: 280px;
+    height: 200px;
+  }
+}
+@media (max-device-width: 1024px) and (min-device-width: 760px) {
+  .image-card {
+    width: 300px;
+  }
+}

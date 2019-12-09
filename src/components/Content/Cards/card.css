@@ -1,0 +1,124 @@
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+  width: 100%;
+}
+.card {
+  display: flex;
+  width: 15rem;
+  flex-direction: column;
+  margin: 10px;
+  box-sizing: border-box;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  border-radius: 10px;
+  font-family: 'Open Sans', sans-serif;
+}
+.card p {
+  font-family: Rubik, sans-serif;
+  color: rgb(122, 122, 122);
+  line-height: 1.5em;
+  font-size: 15px;
+}
+.card h4 {
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+.tech {
+  width: 100%;
+  display: flex;
+  font-size: 60px;
+  color: #29ce2f;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+}
+.codeet-tech {
+  justify-content: flex-start;
+}
+.card-expertise {
+  display: flex;
+  flex-direction: column;
+  width: 9.375rem;
+  box-sizing: border-box;
+  border: 1px solid rgb(108, 187, 170);
+  text-align: center;
+  padding: 10px;
+  margin: 30px;
+}
+.container {
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 20px;
+  background: gray;
+  box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.1);
+}
+.card-product {
+  display: flex;
+  flex-direction: column;
+  width: 190px;
+  box-sizing: border-box;
+  border: 1px solid rgb(108, 187, 170);
+  text-align: center;
+  margin: 5px;
+}
+.card-product:hover {
+  background-color: pink;
+  width: 200px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  transition: 2s;
+}
+.image-cont,
+.image {
+  width: 100%;
+}
+.read-more {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+.card-top {
+  width: 130px;
+}
+.icon {
+  color: rgb(81, 130, 235);
+  font-size: 14px;
+}
+.children {
+  padding: 10px;
+}
+.children h3 {
+  margin: 0;
+  position: relative;
+  bottom: 45px;
+}
+.contact-address {
+  position: relative;
+  bottom: 25px;
+}
+@media (max-width: 770px) {
+  .card-expertise {
+    width: 6.25rem;
+    margin: 15px;
+  }
+  .children {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .tech {
+    height: 60px;
+  }
+  .container {
+    border-radius: 0;
+  }
+  .card-product {
+    display: flex;
+    width: 100px;
+  }
+  .card {
+    width: 15rem;
+  }
+}

@@ -1,0 +1,45 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  align-items: center;
+  text-align: center;
+  font-family: Rubik, sans-serif;
+  color: rgb(122, 122, 122);
+  line-height: 1.5em;
+  font-weight: 300px;
+  margin-top: 5%;
+}
+.location-phone {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin: 20px;
+}
+.location-phone span {
+  margin-right: 10px;
+  color: rgb(57, 209, 57);
+}
+.location-phone p {
+  margin: 10px;
+}
+.hr {
+  border: 1px solid rgba(1, 175, 1, 0.3);
+  width: 100%;
+  margin-bottom: 5px;
+}
+.social {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 20px;
+}
+.social .svg-inline--fa {
+  margin: 5px;
+}
+@media (max-device-width: 768px) {
+  .location-phone {
+    flex-direction: column;
+  }
+}

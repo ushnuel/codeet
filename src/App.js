@@ -1,26 +1,30 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+import { Route, Switch } from 'react-router-dom';
+import Layout from './hoc/Layout/layout';
+import Content from './components/Content/content';
+import About from './components/About/about';
+import contact from './components/Contact/contact';
+import Service from './components/Service/service';
+import Portfolio from './components/Portfolio/portfolio';
+import Academy from './components/Academy/academy';
+import AcademyDetail from './components/Academy/academyDetail';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <Layout>
+        <Switch>
+          <Route path='/' exact component={Content} />
+          <Route path='/about-us' component={About} />
+          <Route path='/contact-us' component={contact} />
+          <Route path='/service' component={Service} />
+          <Route path='/portfolio' component={Portfolio} />
+          <Route path='/academy' component={Academy} />
+          <Route path='/course/:id' exact component={AcademyDetail} />
+        </Switch>
+      </Layout>
+    );
+  }
 }
 
 export default App;
