@@ -1,1 +1,1 @@
-# codeet-ui
+# codeet
