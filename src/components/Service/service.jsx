@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import image from '../assets/images/gradient1.jpg';
+import image1 from '../assets/images/service.jpg';
 import webDesign from '../assets/icons/webDesign.png';
 import webDev from '../assets/icons/webDev.png';
 import seo from '../assets/icons/seo.png';
@@ -23,7 +24,7 @@ const service = () => {
         className1='createev-header'
       ></Header>
       <Section className='service-container'>
-        <BackgroundImage image={image} className='service-background-image' />
+        <BackgroundImage image={image1} className='service-background-image' />
         <div className='service'>
           <h2>Get your project ready with our world class developers</h2>
           <ul>

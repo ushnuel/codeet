@@ -55,7 +55,7 @@ class Academy extends Component {
             <br />
             <p>
               <Link to='/about-us'>
-                <button className='btn'>Learn More</button>
+                <button className='service-btn'>Learn More</button>
               </Link>
             </p>
           </div>

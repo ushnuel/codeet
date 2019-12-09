@@ -32,7 +32,7 @@ const about = () => {
             products and offering digital marketing services for SMEs and Corporetions.
           </p>
           <p>
-            Ingenuity has is base at CREATEEV. Our team of experienced developers, designers and
+            Ingenuity has is base at CODEET. Our team of experienced developers, designers and
             digital strategists are always ready to offer you exceptional strategy, eye-catching
             designs, full stack engineering, mobile/web app develpment, and digital marketing
             consulting.
