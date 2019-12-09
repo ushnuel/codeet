@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Aux from '../Auxe/aux';
+import Aux from '../Auxi/auxe';
 import './layout.css';
 import Toolbar from '../../components/Toolbar/toolbar';
 import SideDrawer from '../../components/Toolbar/SideDrawer/sideDrawer';
@@ -20,10 +20,7 @@ class Layout extends Component {
     return (
       <Aux>
         <Toolbar openSideDrawer={this.openSideDrawerHandler} />
-        <SideDrawer
-          onCancel={this.closeSideDrawerHandler}
-          isClose={this.state.showSideDrawer}
-        />
+        <SideDrawer onCancel={this.closeSideDrawerHandler} isClose={this.state.showSideDrawer} />
         <main className='contents'>{this.props.children}</main>
       </Aux>
     );

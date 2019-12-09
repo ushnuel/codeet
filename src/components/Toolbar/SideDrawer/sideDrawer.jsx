@@ -1,6 +1,6 @@
 import React from 'react';
 import Backdrop from '../../UI/Backdrop/backdrop';
-import Aux from '../../../hoc/Auxe/aux';
+import Aux from '../../../hoc/Auxi/auxe';
 import NavigationItems from '../NavigationItems/NavigationItems';
 import './sideDrawer.css';
 

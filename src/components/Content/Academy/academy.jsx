@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import image from '../../assets/images/image5.jpg';
-import Aux from '../../../hoc/Auxe/aux';
+import Aux from '../../../hoc/Auxi/auxe';
 import BackgroundImage from '../../UI/Background/backgroundImage';
 import './academy.css';
 

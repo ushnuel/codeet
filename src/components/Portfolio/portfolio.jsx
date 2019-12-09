@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Aux from '../../hoc/Auxe/aux';
+import Aux from '../../hoc/Auxi/auxe';
 import image from '../assets/images/gradient1.jpg';
 import Header from '../About/header/header';
 import Footer from '../Footer/footer';

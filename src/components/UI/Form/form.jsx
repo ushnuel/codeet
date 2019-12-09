@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import axios from 'axios';
 
 import checkInput from './checkInput';
-import Aux from '../../../hoc/Auxe/aux';
+import Aux from '../../../hoc/Auxi/auxe';
 import Spinner from '../Spinner/submitSpinner';
 
 import './form.css';

@@ -6,7 +6,7 @@ import { faEnvelope, faPhoneAlt } from '@fortawesome/free-solid-svg-icons';
 import question from '../assets/icons/question.png';
 import support from '../assets/icons/support.png';
 import classroom from '../assets/icons/classroom.png';
-import Aux from '../../hoc/Auxe/aux';
+import Aux from '../../hoc/Auxi/auxe';
 import Header from '../About/header/header';
 import Footer from '../Footer/footer';
 import Section from '../Content/Section/section';
@@ -30,10 +30,7 @@ class Contact extends Component {
   render() {
     return (
       <Aux>
-        <Modal
-          show={this.state.showContactForm}
-          onCancel={this.closeContactFormHandler}
-        >
+        <Modal show={this.state.showContactForm} onCancel={this.closeContactFormHandler}>
           <Form />
         </Modal>
         <Header
@@ -42,9 +39,7 @@ class Contact extends Component {
           className='contact-header'
           className1='createev-header'
         >
-          <p>
-            Our customer service is very reliable; we are here to serve you best
-          </p>
+          <p>Our customer service is very reliable; we are here to serve you best</p>
         </Header>
         <Section className='contact-us-container'>
           <div className='contact-us'>
@@ -56,8 +51,8 @@ class Contact extends Component {
             >
               <h3>Request a quote</h3>
               <p>
-                You can request for a quote by just hitting the button. We
-                typically reply immediately.
+                You can request for a quote by just hitting the button. We typically reply
+                immediately.
               </p>
               <button onClick={this.openContactFormHandler} className='btn'>
                 Request a quote
@@ -71,8 +66,8 @@ class Contact extends Component {
             >
               <h3>Academy Inquiry</h3>
               <p>
-                Join our team of developers by registering with us. You can
-                become a very good developer from the scratch
+                Join our team of developers by registering with us. You can become a very good
+                developer from the scratch
               </p>
               <Link to='/academy'>
                 <Button className='btn'>Academy Inquiry</Button>
@@ -86,8 +81,7 @@ class Contact extends Component {
             >
               <h3>Customer support</h3>
               <p>
-                Get in touch with us for assistance. We will get back to you as
-                soon as possible
+                Get in touch with us for assistance. We will get back to you as soon as possible
               </p>
               <Button className='btn'>
                 <a href='mailto: hello@createev.com'>Customer support </a>
@@ -115,22 +109,22 @@ class Contact extends Component {
             <div className='contact-step'>
               <div className='step-number'>1</div>
               <div className='step-description'>
-                Once you have contacted us, we will reach out to you and find a
-                good opportunity to discuss your challenge and goals in details.
+                Once you have contacted us, we will reach out to you and find a good opportunity to
+                discuss your challenge and goals in details.
               </div>
             </div>
             <div className='contact-step'>
               <div className='step-number'>2</div>
               <div className='step-description'>
-                We provide you with a detailed project estimation (services
-                required, price, duration, team composition).
+                We provide you with a detailed project estimation (services required, price,
+                duration, team composition).
               </div>
             </div>
             <div className='contact-step'>
               <div className='step-number'>3</div>
               <div className='step-description'>
-                We are ready to start working with you once we agree on the
-                proposal and sign the contract.
+                We are ready to start working with you once we agree on the proposal and sign the
+                contract.
               </div>
             </div>
           </div>
