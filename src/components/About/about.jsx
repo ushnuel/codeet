@@ -45,9 +45,8 @@ const about = () => {
           </p>
         </section>
 
+        <h1>How we approach work</h1>
         <div className='about-us'>
-          <h1>How we approach work</h1>
-
           <ExpertiseCard tech={faArchway} className1='card-about' className2='tech codeet-tech'>
             <h3>Inclusive</h3>
             <p>
