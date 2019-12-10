@@ -8,11 +8,13 @@ import Service from './components/Service/service';
 import Portfolio from './components/Portfolio/portfolio';
 import Academy from './components/Academy/academy';
 import AcademyDetail from './components/Academy/academyDetail';
+import Animate from './components/UI/Animate';
 
 class App extends Component {
   render() {
     return (
       <Layout>
+        <Animate />
         <Switch>
           <Route path='/' exact component={Content} />
           <Route path='/about-us' component={About} />

@@ -111,7 +111,7 @@ export default class Academy extends Component {
             can’t wait to start working with you!
           </p>
           <Link to='/contact-us'>
-            <Button className='btn service-btn'>Lets Talk</Button>
+            <Button className='btn service-btn show-on-scroll'>Lets Talk</Button>
           </Link>
         </Header>
         <Footer />

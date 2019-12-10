@@ -40,7 +40,7 @@ class Academy extends Component {
   render() {
     return (
       <Aux>
-        <section className='academy-container'>
+        <section className='academy-container show-on-scroll'>
           <h1>Join our Academy</h1>
           <BackgroundImage image={image} text={this.state.text} className='image-txt' />
           <div className='txt-container'>

@@ -2,21 +2,20 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin-top: 45px;
+  margin-top: 2.5rem;
 }
 .section-container h2 {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
-    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva,
+    Verdana, sans-serif;
   font-weight: bold;
   color: rgb(32, 185, 101);
   margin: 0;
 }
 .section-container p {
   font-family: 'Open Sans', sans-serif;
-  /* text-align: center; */
 }
 @media (min-device-width: 768px) {
   .section-container h2 {
-    font-size: 40px;
+    font-size: 2.5rem;
   }
 }

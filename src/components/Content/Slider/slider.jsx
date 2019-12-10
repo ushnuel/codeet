@@ -17,7 +17,7 @@ const slider = () => {
           <h2>We provide the best development experience for our clients.</h2>
           <div>
             <Link to='/service'>
-              <Button className='btn banner-button'>Check our services</Button>
+              <Button className='btn banner-button show-on-scroll'>Check our services</Button>
             </Link>
           </div>
         </div>

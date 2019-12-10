@@ -4,7 +4,7 @@ import { faChevronCircleRight } from '@fortawesome/free-solid-svg-icons';
 import './card.css';
 
 const card = ({ image, children, description, className }) => (
-  <div className='card'>
+  <div className='card show-on-scroll'>
     <div className='card-top'>
       <img src={image} alt='our services' style={{ width: '100%' }} />
     </div>

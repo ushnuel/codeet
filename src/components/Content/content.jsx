@@ -25,7 +25,7 @@ const content = () => {
           Let us handle your project professionally <br /> We can’t wait to start working with you!
         </p>
         <Link to='/contact-us'>
-          <button className='btn service-btn'>Request a quote</button>
+          <button className='btn service-btn show-on-scroll'>Request a quote</button>
         </Link>
       </Header>
       <Footer />
