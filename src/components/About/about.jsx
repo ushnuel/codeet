@@ -32,7 +32,7 @@ const about = () => {
             products and offering digital marketing services for SMEs and Corporetions.
           </p>
           <p>
-            Ingenuity has is base at CODEET. Our team of experienced developers, designers and
+            Ingenuity has its base at CODEET. Our team of experienced developers, designers and
             digital strategists are always ready to offer you exceptional strategy, eye-catching
             designs, full stack engineering, mobile/web app develpment, and digital marketing
             consulting.
@@ -45,8 +45,9 @@ const about = () => {
           </p>
         </section>
 
-        <h1>How we approach work</h1>
         <div className='about-us'>
+          <h1>How we approach work</h1>
+
           <ExpertiseCard tech={faArchway} className1='card-about' className2='tech codeet-tech'>
             <h3>Inclusive</h3>
             <p>
@@ -92,7 +93,7 @@ const about = () => {
           can’t wait to start working with you!
         </p>
         <Link to='/contact-us'>
-          <Button className='btn service-btn'>Lets Talk</Button>
+          <Button className='btn service-btn show-on-scroll'>Lets Talk</Button>
         </Link>
       </Header>
       <Section className='about-us-container'>

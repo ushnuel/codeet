@@ -23,7 +23,7 @@ const service = () => {
         className='service-header'
         className1='createev-header'
       ></Header>
-      <Section className='service-container'>
+      <Section className='service-container show-on-scroll'>
         <BackgroundImage image={image1} className='service-background-image' />
         <div className='service'>
           <h2>Get your project ready with our world class developers</h2>

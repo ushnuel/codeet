@@ -1,17 +1,9 @@
 import React from 'react';
 import BackgroundImage from '../../UI/Background/backgroundImage';
 
-const academyCard = ({
-  image,
-  className,
-  className1,
-  heading,
-  children,
-  days,
-  Onclick,
-}) => {
+const academyCard = ({ image, className, className1, heading, children, days, Onclick }) => {
   return (
-    <section className={className} onClick={Onclick}>
+    <section className={`${className} show-on-scroll`} onClick={Onclick}>
       <BackgroundImage image={image} className={className1}>
         {days}
       </BackgroundImage>
