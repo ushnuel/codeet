@@ -6,7 +6,7 @@ import './card.css';
 const card = ({ image, children, description, className }) => (
   <div className='card show-on-scroll'>
     <div className='card-top'>
-      <img src={image} alt='our services' style={{ width: '100%' }} />
+      <img src={image} alt='our services' className='contact-img' />
     </div>
     <h4>{children}</h4>
     <p>{description}</p>
@@ -15,7 +15,7 @@ const card = ({ image, children, description, className }) => (
         <span>
           <FontAwesomeIcon icon={faChevronCircleRight} className='icon' />
         </span>
-        <a href='/about-us'> Learn more</a>
+        <a href='/service'> Learn more</a>
       </p>
     </div>
   </div>

@@ -124,3 +124,8 @@
     margin: 0.625rem;
   }
 }
+@media (min-width: 1000px) {
+  .service-card {
+    width: 38rem;
+  }
+}
