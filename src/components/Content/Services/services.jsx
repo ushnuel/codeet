@@ -13,7 +13,7 @@ const services = () => (
       <Card
         image={webDev}
         className='read-more'
-        description='Creeteev is envisioned to providing the best web development experience.'
+        description='Codeet is envisioned to providing the best web development experience.'
       >
         Web Development
       </Card>

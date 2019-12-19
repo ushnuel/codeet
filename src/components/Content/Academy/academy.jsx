@@ -35,6 +35,7 @@ class Academy extends Component {
 
   componentDidMount() {
     this._isMounted = true;
+    document.title = 'Codeet | Our academy page';
     this.textHandler();
   }
   render() {
@@ -54,7 +55,7 @@ class Academy extends Component {
             </p>
             <br />
             <p>
-              <Link to='/about-us'>
+              <Link to='/academy'>
                 <button className='service-btn'>Learn More</button>
               </Link>
             </p>

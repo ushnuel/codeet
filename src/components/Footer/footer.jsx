@@ -7,11 +7,7 @@ import {
   faInstagram,
 } from '@fortawesome/free-brands-svg-icons';
 import './footer.css';
-import {
-  faMapMarkerAlt,
-  faEnvelope,
-  faPhoneAlt,
-} from '@fortawesome/free-solid-svg-icons';
+import { faMapMarkerAlt, faEnvelope, faPhoneAlt } from '@fortawesome/free-solid-svg-icons';
 
 const footer = () => (
   <section className='footer'>
@@ -26,7 +22,7 @@ const footer = () => (
         <span>
           <FontAwesomeIcon icon={faEnvelope} />
         </span>
-        <a href='mailto:info@createev.com'>info@createev.com</a>
+        <a href='mailto:info@createev.com'>info@codeet.com</a>
       </p>
       <p>
         <span>
@@ -42,7 +38,7 @@ const footer = () => (
       <FontAwesomeIcon icon={faLinkedin} />
       <FontAwesomeIcon icon={faInstagram} />
     </div>
-    <p>&copy; 2019 Createev. All rights reserved</p>
+    <p>&copy; 2019 - 2020 Codeet software solutions. All rights reserved</p>
   </section>
 );
 
